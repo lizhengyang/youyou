@@ -13,7 +13,9 @@
 	<link id="bs-css" href="${ctx}/static/css/bootstrap-cerulean.css" rel="stylesheet">
 	<style type="text/css">
 	  body {
+	  	padding-top: 40px;
 		padding-bottom: 40px;
+		background-color: #eee;
 	  }
 	  .sidebar-nav {
 		padding: 9px 0;

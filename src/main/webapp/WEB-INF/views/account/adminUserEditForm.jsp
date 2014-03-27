@@ -12,7 +12,7 @@
 	<div class="row-fluid sortable ui-sortable">
 				<div class="box span12">
 					<div class="box-header well" data-original-title="">
-						<h2><i class="icon-edit"></i> Form Elements</h2>
+						<h2><i class="icon-edit"></i> 用户信息</h2>
 					</div>
 					<div class="box-content">
 						<form class="form-horizontal" action="${ctx}/admin/user/update" method="post">
@@ -63,9 +63,9 @@
 							  </div>
 							  <div class="form-actions">
 							  <c:if test="${model==null}">
-							  	<button type="submit" class="btn btn-primary">Save changes</button>
+							  	<button type="submit" class="btn btn-primary">保存</button>
 							  </c:if>
-								<a class="btn" onclick="history.back()">Cancel</a>
+								<a class="btn" onclick="history.back()">取消</a>
 							  </div>
 							</fieldset>
 						  </form>

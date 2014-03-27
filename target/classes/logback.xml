@@ -11,7 +11,7 @@
 		<maxSizeRollBackups>10</maxSizeRollBackups>
 		<maximumFileSize>100MB</maximumFileSize>
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-			<fileNamePattern>logs/dayin.%d{yyyy-MM-dd}.log</fileNamePattern>
+			<fileNamePattern>logs/youyou.%d{yyyy-MM-dd}.log</fileNamePattern>
 		</rollingPolicy>
 		<encoder>
 			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>

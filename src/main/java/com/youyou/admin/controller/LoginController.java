@@ -29,7 +29,7 @@ public class LoginController {
 		
 	}
 	
-	@RequestMapping(method = RequestMethod.POST)
+	@RequestMapping(method = RequestMethod.POST,value="/login")
 	public String fail(@RequestParam(FormAuthenticationFilter.DEFAULT_USERNAME_PARAM) String userName, Model model) {
 			model.addAttribute(FormAuthenticationFilter.DEFAULT_USERNAME_PARAM, userName);
 			return "/account/login";

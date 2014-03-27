@@ -19,5 +19,5 @@
 </div>
 
 <footer class="footer">
-   <p class="pull_left"  style = "width:200px;margin:auto">Copyright &copy; <a href="${ctx}/index.jsp" target="_blank">悠悠旅游网 </a> 2014, All Rights Reserved</p>
+   <p class="pull_left"  style = "width:300px;margin:auto">Copyright &copy; <a href="${ctx}/index.jsp" target="_blank">悠悠旅游网 </a> 2014, All Rights Reserved</p>
 </footer>

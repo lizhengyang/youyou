@@ -12,7 +12,7 @@
 	<div class="row-fluid sortable ui-sortable">
 				<div class="box span12">
 					<div class="box-header well" data-original-title="">
-						<h2><i class="icon-edit"></i> Form Elements</h2>
+						<h2><i class="icon-edit"></i> 增加用户</h2>
 					</div>
 					<div class="box-content">
 						<form class="form-horizontal" action="${ctx}/admin/user/create" method="post">
@@ -72,8 +72,8 @@
 								</div>
 							  </div>
 							  <div class="form-actions">
-								<button type="submit" class="btn btn-primary">Save changes</button>
-								<a class="btn" onclick="history.back()">Cancel</a>
+								<button type="submit" class="btn btn-primary">保存</button>
+								<a class="btn" onclick="history.back()">取消</a>
 							  </div>
 							</fieldset>
 						  </form>

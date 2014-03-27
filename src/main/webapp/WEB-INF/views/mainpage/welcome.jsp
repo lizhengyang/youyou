@@ -13,7 +13,7 @@
 	<div class="jumbotron">
 		<div class="container">
 	 	 <h1><shiro:principal property="name"/>,欢迎</h1>
-	 	 <p>您登录悠悠旅游网管理系统</p>
+	 	 <p>您登录悠悠旅游网管理平台</p>
 	  </div>
 	</div>
 	 <script type="text/javascript">

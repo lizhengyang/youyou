@@ -39,24 +39,27 @@
 	</form>
 	
 	<script>
-		$(document).ready(function() {
-			//聚焦第一个输入框
-			$("#name").focus();
-			//为inputForm注册validate函数
-			$("#inputForm").validate({
-				rules:{
-					plainPassword:{
-						required: true,
-					    minlength: 5
-					},
-					confirmPassword:{
-						required: true,
-					    minlength: 5,
-					    equalTo: "#plainPassword"
-					}					
-				}
-			});
-		});
+			function doBodyInit(){
+				//聚焦第一个输入框
+				$("#name").focus();
+				//为inputForm注册validate函数
+				$("#inputForm").validate({
+					rules:{
+						name:{
+							required: true
+						},
+						plainPassword:{
+							required: true,
+						    minlength: 5
+						},
+						confirmPassword:{
+							required: true,
+						    minlength: 5,
+						    equalTo: "#plainPassword"
+						}					
+					}
+				});
+	     	}
 	</script>
 </body>
 </html>
